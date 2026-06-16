@@ -5,7 +5,7 @@ import soundfile as sf
 import noisereduce as nr
 from pydub import AudioSegment, silence
 
-INPUT_FOLDER = r"D:\My Data\downloads\Experimental"
+INPUT_FOLDER = r"D:\path-to-audio-folder"
 OUTPUT_FOLDER = os.path.join(INPUT_FOLDER, "processed")
 
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
